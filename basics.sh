@@ -8,6 +8,6 @@ sudo apt update
 sudo apt install palemoon
 touch /usr/share/applications/palemoon.desktop
 # Artha— a dictionary and thesaurus app
-sudo apt install Aretha
+sudo apt install artha
 #Kate— a graphical text editor
 sudo apt install Kate
