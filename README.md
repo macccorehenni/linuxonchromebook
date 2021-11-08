@@ -10,4 +10,12 @@
 Right, there were no other apps installed. You have to install them using `apt`.
 `apt` is a command based package manager, so to use it, open the Terminal app from the Everything Menu. The basic form of `apt` is such:
 `apt install [package-name]`
-Now, there's a weird thing about `apt`&emdash; it won't know what you mean by, say, Chrome. To install Firefox:
+Now, there's a weird thing about `apt`. It won't know what you mean by, say, Chrome. To install Chrome, you'd have to type:
+`apt install chrome-browser`
+But when you do that, it just displays this:
+{Reading package lists...Done
+Building dependency tree
+Reading state information... Done}
+and then come out and say:
+`E: Could not find package chrome-browser`
+Welp. Chrome's not included with the *FOSS* listing that Ubuntu comes with. So, you could go to [Chrome's download site][google.com/chrome]
