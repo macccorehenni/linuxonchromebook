@@ -9,10 +9,15 @@
 ## But... How do I use it? No other apps were installed!
 Right, there were no other apps installed. You have to install them using `apt`.
 `apt` is a command based package manager, so to use it, open the Terminal app from the Everything Menu. The basic form of `apt` is such:
-`sudo apt install [package-name]`
-Type your password and
-Now, there's a weird thing about `apt`. It won't know what you mean by, say, Chrome. To install Chrome, you'd have to type:
-`sudo apt install chrome-browser`
+```
+sudo apt install [package-name]
+```
+
+Type your password and, *et voila*! You get a shiny new app.
+However, there's a weird thing about `apt`. It won't know what you mean by, say, "Chrome". To install Chrome, you'd have to type:
+```
+sudo apt install chrome-browser
+```
 But when you do that, it just displays this:
 ```
 Reading package lists...Done
@@ -39,4 +44,24 @@ or
 ```
 apt purge [package-name]
 ```
-As always, if it's a bit complex, then, okay, got you. 
+As always, if it's a bit complex, then, okay, got you. A deleter script was added as well.
+# I haz error
+Oh, no. ``That's an issue.`` Look for your issue here, and if it's not .
+## I get an error when running one of the installation scripts.
+If install.sh returns the same error that you got when running a basic `apt` command, then try this:
+```
+apt search [what you are trying to find]
+```
+Then try again with any name you see here that might match what you are finding.
+If else, submit an issue here on Github, pasting the output from `apt` (use Ctrl-Shift-C to copy).
+## The program won't run
+Hmmmmmmm..... perhaps that's a good thing to ask a subreddit dedicated to that app. They'll be the best to fix it, and this varies quite on the program. One thing to keep in mind is that sometimes apps are built a specific way, meaning that the apps are 
+## These apps are slooooow with 10 o's
+Okay, here's a few things to try:
+1. **Check your status area.** If a "1" (or 2, or 3, or *n*) is sitting  there, open your status area. If you see a "hard drive critically low" notification, clean some crud off your hard drive. Chrostini is, after all, a hard drive-guzzling app, and it needs some breathing room.
+2. **Disable hardware acceleration usage on your app.** If you are struggling to open one app, but most others open OK, it could be beacuse *hardware acceleration* is bickering with your app. Ask an subreddit for your app what potential solutions to this issue are.
+3. **Try updating your Chromebook.** Sometimes, you'll see a up arrow icon in the status area of the Chromebook. But if you don't, do this: Go to Settings>About Chrome OS. Click "Check for Updates". If you have an outdated version of ChrOS, then it'll get to work on downloading and applying that update.
+4. **Backup, then reset.** If all else fails, then try backing up any local files you need off of your Chromebook, then [powerwash](https://support.google.com/chromebook/answer/183084?hl=en) it. 
+#Licence
+This code and README is distributed under the [CC-0](https://creativecommons.org/share-your-work/public-domain/cc0/) licence. I herby declare this to be open to anybody, copiable any way, and no punishment shall arise from such.
+Yet, I also must acknowledge 
