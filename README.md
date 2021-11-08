@@ -28,3 +28,4 @@ Okay, now take a deep breath..... almost done. To *run* a program, just type its
 ```
 chrome-browser
 ```
+Seems complex, right. Yeah, thought so. In this repo, I have included a shell file that'll give you Chrome, Spotify and other apps I use on my Linux books. 
