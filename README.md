@@ -29,7 +29,7 @@ Okay, now take a deep breath..... almost done. To *run* a program, just type its
 chrome-browser
 ```
 Seems complex, right. Yeah, thought so. In this repo, I have included a shell file that'll give you apps I use on my Linux books. Also, if you want others, then you're in luck— there's on for each too, `apt` and `dpkg`. 
-**Wait! I don't want these!**
+## Wait! I don't want these!
 Well, okay.
 Uninstall using:
 ```
