@@ -62,6 +62,6 @@ Okay, here's a few things to try:
 2. **Disable hardware acceleration usage on your app.** If you are struggling to open one app, but most others open OK, it could be beacuse *hardware acceleration* is bickering with your app. Ask an subreddit for your app what potential solutions to this issue are.
 3. **Try updating your Chromebook.** Sometimes, you'll see a up arrow icon in the status area of the Chromebook. But if you don't, do this: Go to Settings>About Chrome OS. Click "Check for Updates". If you have an outdated version of ChrOS, then it'll get to work on downloading and applying that update.
 4. **Backup, then reset.** If all else fails, then try backing up any local files you need off of your Chromebook, then [powerwash](https://support.google.com/chromebook/answer/183084?hl=en) it. 
-#Licences
+# Licences
 This code and README is distributed under the [CC-0](https://creativecommons.org/share-your-work/public-domain/cc0/) licence. I herby declare this to be open to anybody, copiable any way, and no punishment shall arise from such.
-Yet, I also must acknowledge that the Pale Moon sourcecode is licenced under [the Mozilla Public Licence, version 2.0](https://www.mozilla.org/en-US/MPL/2.0/). Also, 
+Yet, I also must acknowledge that the Pale Moon sourcecode is licenced under [the Mozilla Public Licence, version 2.0](https://www.mozilla.org/en-US/MPL/2.0/). Also, Artha is based upon the [GPL 2.0](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), and that Kate is based mostly upon LGPLv2 (see [here](https://kate-editor.org/2014/01/03/kate-licensing/) for more details). Breaking said licences is in turn violating KDE and Pale Moon's copyright, which is not cool. Thanks for honoring that!
