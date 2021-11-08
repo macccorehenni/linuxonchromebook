@@ -65,3 +65,14 @@ Okay, here's a few things to try:
 # Licences
 This code and README is distributed under the [CC-0](https://creativecommons.org/share-your-work/public-domain/cc0/) licence. I herby declare this to be open to anybody, copiable any way, and no punishment shall arise from such.
 Yet, I also must acknowledge that the Pale Moon sourcecode is licenced under [the Mozilla Public Licence, version 2.0](https://www.mozilla.org/en-US/MPL/2.0/). Also, Artha is based upon the [GPL 2.0](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), and that Kate is based mostly upon LGPLv2 (see [here](https://kate-editor.org/2014/01/03/kate-licensing/) for more details). Breaking said licences is in turn violating KDE and Pale Moon's copyright, which is not cool. Thanks for honoring that!
+<p xmlns:dct="http://purl.org/dc/terms/">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://licensebuttons.net/p/zero/1.0/80x15.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <span rel="dct:publisher" resource="[_:publisher]">the person who associated CC0</span>
+  with this work has waived all copyright and related or neighboring
+  rights to this work.
+</p>
